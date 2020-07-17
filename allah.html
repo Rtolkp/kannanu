@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: ;
+  padding: 0 4px;
+}
+
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+
+<div class="header">
+  <h1>Responsive Image Grid</h1>
+  <p>Resize the browser window to see the responsive effect.</p>
+</div>
+
+<div class="row"> 
+  <div class="column">
+     <img src="images/download.jpg" style="width:100%">
+     <img src="images/r1.jpg" style="width:100%">
+    <img src="images/k.jpg" style="width:100%">
+    <img src="images/underwater.jpg" style="width:100%">
+    <img src="images/download.jpg" style="width:100%">
+    <img src="images/mist.jpg" style="width:100%">
+    <img src="images/r6.jpg" style="width:100%">
+  </div>
+  
+  <div class="column">
+   
+     <img src="images/underwater.jpg" style="width:100%">
+     <img src="images/k.jpg" style="width:100%">
+    <img src="images/download.jpg" style="width:100%">
+    <img src="images/rk.jpeg" style="width:100%">
+    <img src="images/r4.jpg" style="width:100%">
+    <img src="images/underwater.jpg" style="width:100%">
+  </div> 
+   
+  <div class="column">
+     <img src="images/download.jpg" style="width:100%">
+     <img src="images/r1.jpg" style="width:100%">
+    <img src="images/k.jpg" style="width:100%">
+    <img src="images/underwater.jpg" style="width:100%">
+    <img src="images/download.jpg" style="width:100%">
+    <img src="images/mist.jpg" style="width:100%">
+    <img src="images/r6.jpg" style="width:100%">
+  
+  </div>
+  
+  <div class="column">
+      <img src="images/underwater.jpg" style="width:100%">
+     <img src="images/k.jpg" style="width:100%">
+    <img src="images/download.jpg" style="width:100%">
+    <img src="images/k.jpg" style="width:100%">
+    <img src="images/r4.jpg" style="width:100%">
+    <img src="images/underwater.jpg" style="width:100%">
+
+  </div>
+</div>
+
+</body>
+</html>
